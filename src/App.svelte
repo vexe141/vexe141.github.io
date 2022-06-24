@@ -23,6 +23,11 @@
         desc="A little library management tool."
         link="https://www.github.com/vexe141/libman"
     />
+    <Project
+        name="tic_tac_toe"
+        desc="A terrible tictactoe game I made back in March."
+        link="https://www.github.com/vexe141/tic_tac_toe"
+    />
 
     <p>
         Oh, fun fact, I used to be an EDM producer. Here's a bunch of links if

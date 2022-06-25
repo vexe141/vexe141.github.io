@@ -11,12 +11,13 @@
         color: white;
         padding: 10px 10px;
         text-align: center;
-        font-size: 15px;
+        font-size: 12px;
         width: 20%;
         border: none;
         margin: 1rem;
         border-radius: 4px;
-        cursor: pointer;
+	cursor: pointer;
+	user-select: none;
     }
 
     button:hover {

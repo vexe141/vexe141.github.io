@@ -27,7 +27,7 @@
     <div class="projects">
         <Project
             name="notor"
-						desc="A note-taking tool for the terminal, created as a utility for writing down short notes.<hr> Only supported on Linux for the time being."
+            desc="A note-taking tool for the terminal, created as a utility for writing down short notes. Only supported on Linux for the time being."
             link="https://www.github.com/vexe141/notor"
             langImage={notor_lang}
         />
@@ -41,8 +41,8 @@
             name="tic_tac_toe"
             desc="A terrible tictactoe game I made a long time ago."
             link="https://www.github.com/vexe141/tic_tac_toe"
-						langImage = {tic_tac_toe_lang}
-						published = "https://vexe141.github.io/tic_tac_toe"
+            langImage={tic_tac_toe_lang}
+            published="https://vexe141.github.io/tic_tac_toe"
         />
     </div>
 

@@ -1,5 +1,10 @@
-<hr>
-<p>Repo for this webpage is <a href="https://www.github.com/vexe141/about" target="_blank">here</a>.</p>
+<hr />
+<p>
+    Repo for this webpage is <a
+        href="https://www.github.com/vexe141/about"
+        target="_blank">here</a
+    >.
+</p>
 
 <style>
     hr {

@@ -2,8 +2,8 @@
     export let name: string;
     export let desc: string;
     export let link: string;
-		export let langImage: string[];
-		export let published: string = "";
+    export let langImage: string[];
+    export let published: string = "";
 </script>
 
 <div class="wrapper">
@@ -11,21 +11,21 @@
 
     <p>
         {desc}
-        <br>
+        <br />
         Repo: <a href={link} target="_blank">{link}</a>
-				<br>
+        <br />
 
-				{#if published.length !== 0}
-						Published at: <a href={published} target="_blank">{published}</a>
-				{/if}
-				<br>
+        {#if published.length !== 0}
+            Published at: <a href={published} target="_blank">{published}</a>
+        {/if}
+        <br />
 
         {#each langImage as lang}
             <img class="langImage" src={lang} alt="Language used for project" />
         {/each}
     </p>
 
-    <p></p>
+    <p />
 </div>
 
 <style>

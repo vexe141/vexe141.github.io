@@ -34,6 +34,7 @@
         height: 2.5rem;
         width: 2.5rem;
         margin: 2rem 5px 5px 5px;
+        user-select: none;
     }
 
     h2 {

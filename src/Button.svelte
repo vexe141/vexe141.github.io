@@ -16,8 +16,8 @@
         border: none;
         margin: 1rem;
         border-radius: 4px;
-	cursor: pointer;
-	user-select: none;
+        cursor: pointer;
+        user-select: none;
     }
 
     button:hover {

@@ -2,6 +2,7 @@
     import logo from "./assets/logo.png";
     import Button from "./Button.svelte";
     import Project from "./Project.svelte";
+    import Footer from "./Footer.svelte";
 </script>
 
 <main>
@@ -15,7 +16,7 @@
 
     <Project
         name="notor"
-        desc="A note-taking terminal tool. Before creating this, I was desperately looking for ideas about whatever to make, and in the end settled on something that could help with taking short notes and stuff. Only supported on Linux for the time being."
+        desc="A note-taking terminal tool, created as a utility for writing down short notes. Only supported on Linux for the time being."
         link="https://www.github.com/vexe141/notor"
     />
     <Project
@@ -43,6 +44,8 @@
         link="https://open.spotify.com/artist/6R6EQZ91W97H5b7YvTjYRW"
     />
     <Button name="SoundCloud" link="https://www.soundcloud.com/iamnotcorona" />
+
+    <Footer /> 
 </main>
 
 <style>
@@ -70,7 +73,7 @@
         font-weight: 100;
         line-height: 1.1;
         margin: 2rem auto;
-        max-width: 14rem;
+        max-width: 50rem;
     }
 
     p {

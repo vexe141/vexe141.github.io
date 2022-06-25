@@ -4,7 +4,7 @@
 <style>
     hr {
         color: rgb(139, 136, 136);
-        width: 60%;
+        width: 70%;
         margin: 1rem auto;
     }
 

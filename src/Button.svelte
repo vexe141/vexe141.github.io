@@ -1,9 +1,13 @@
 <script lang="ts">
     export let name: string;
     export let link: string;
+
+    function goToLink() {
+        window.open(link, "_blank");
+    }
 </script>
 
-<a href={link} target="_blank"><button>{name}</button></a>
+<button on:click={goToLink}>{name}</button>
 
 <style>
     button {

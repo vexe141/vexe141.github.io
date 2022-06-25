@@ -1,7 +1,7 @@
 <hr />
 <p>
     Repo for this webpage is <a
-        href="https://www.github.com/vexe141/about"
+        href="https://www.github.com/vexe141/vexe141.github.io"
         target="_blank">here</a
     >.
 </p>

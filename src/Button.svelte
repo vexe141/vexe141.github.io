@@ -7,7 +7,7 @@
 
 <style>
     button {
-        background-color: rgb(66, 121, 111);
+        background-color: rgb(69, 144, 130);
         color: white;
         padding: 10px 10px;
         text-align: center;
@@ -21,6 +21,6 @@
     }
 
     button:hover {
-        background-color: rgb(50, 96, 90);
+        background-color: rgb(57, 110, 103);
     }
 </style>

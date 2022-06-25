@@ -3,6 +3,16 @@
     import Button from "./Button.svelte";
     import Project from "./Project.svelte";
     import Footer from "./Footer.svelte";
+
+    import clang from "./assets/clang.png";
+    import crystal from "./assets/crystal.png";
+    import html from "./assets/html.png";
+    import css from "./assets/css.png";
+    import js from "./assets/js.png";
+
+    const notor_lang = [crystal];
+    const libman_lang = [clang];
+    const tic_tac_toe_lang = [html, css, js];
 </script>
 
 <main>
@@ -14,21 +24,26 @@
         Here's a list of some stuff I've made so far.
     </p>
 
-    <Project
-        name="notor"
-        desc="A note-taking terminal tool, created as a utility for writing down short notes. Only supported on Linux for the time being."
-        link="https://www.github.com/vexe141/notor"
-    />
-    <Project
-        name="libman"
-        desc="A little library management tool."
-        link="https://www.github.com/vexe141/libman"
-    />
-    <Project
-        name="tic_tac_toe"
-        desc="A terrible tictactoe game I made back in March."
-        link="https://www.github.com/vexe141/tic_tac_toe"
-    />
+    <div class="projects">
+        <Project
+            name="notor"
+            desc="A note-taking tool for the terminal, created as a utility for writing down short notes. Only supported on Linux for the time being."
+            link="https://www.github.com/vexe141/notor"
+            langImage={notor_lang}
+        />
+        <Project
+            name="libman"
+            desc="A little library management tool."
+            link="https://www.github.com/vexe141/libman"
+            langImage={libman_lang}
+        />
+        <Project
+            name="tic_tac_toe"
+            desc="A terrible tictactoe game I made a long time ago."
+            link="https://www.github.com/vexe141/tic_tac_toe"
+            langImage = {tic_tac_toe_lang}
+        />
+    </div>
 
     <p>
         Oh, fun fact, I used to be an EDM producer. Here's a bunch of links if
@@ -45,7 +60,7 @@
     />
     <Button name="SoundCloud" link="https://www.soundcloud.com/iamnotcorona" />
 
-    <Footer /> 
+    <Footer />
 </main>
 
 <style>
@@ -63,8 +78,12 @@
     }
 
     img {
-      height: 6rem;
-      width: 6rem;
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .projects {
+        padding: 1rem;
     }
 
     h1 {

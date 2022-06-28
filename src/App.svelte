@@ -27,7 +27,7 @@
     <div class="projects">
         <Project
             name="notor"
-            desc="A note-taking tool for the terminal, created as a utility for writing down short notes. Only supported on Linux for the time being."
+            desc="A terminal-based utility for writing down short notes."
             link="https://www.github.com/vexe141/notor"
             langImage={notor_lang}
         />

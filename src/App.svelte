@@ -4,11 +4,11 @@
     import Project from "./Project.svelte";
     import Footer from "./Footer.svelte";
 
-    import clang from "./assets/clang.png";
-    import crystal from "./assets/crystal.png";
-    import html from "./assets/html.png";
-    import css from "./assets/css.png";
-    import js from "./assets/js.png";
+    import clang from "./assets/clang.svg";
+    import crystal from "./assets/crystal.svg";
+    import html from "./assets/html.svg";
+    import css from "./assets/css.svg";
+    import js from "./assets/js.svg";
 
     const notor_lang = [crystal];
     const libman_lang = [clang];

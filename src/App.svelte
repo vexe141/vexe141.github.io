@@ -1,5 +1,4 @@
 <script lang="ts">
-    import logo from "./assets/logo.png";
     import Button from "./Button.svelte";
     import Project from "./Project.svelte";
     import Footer from "./Footer.svelte";
@@ -10,44 +9,45 @@
     import css from "./assets/css.svg";
     import js from "./assets/js.svg";
 
-    const notor_lang = [crystal];
-    const libman_lang = [clang];
-    const tic_tac_toe_lang = [html, css, js];
+    const props = {
+        notorProps: {
+            name: "notor",
+            desc: "A terminal app for writing down short notes.",
+            link: "https://github.com/vexe141/notor",
+            langImage: [crystal]
+        },
+        libmanProps: {
+            name: "libman",
+            desc: "A little library management tool.",
+            link: "https://github.com/vexe141/libman",
+            langImage: [clang]
+        },
+        ticTacToeProps: {
+            name: "tic_tac_toe",
+            desc: "A terrible recreation of tictactoe.",
+            link: "https://www.github.com/vexe141/tic_tac_toe",
+            langImage: [html, css, js],
+            published: "https://vexe141.github.io/tic_tac_toe"
+        }
+    }
 </script>
 
 <main>
-    <img src={logo} alt="vexe logo" />
     <h1>vexe</h1>
 
     <p>
-        Hello, I'm a guy who writes random apps and stuff for fun, I guess.
+        Just a guy who writes random apps and stuff for fun.
         Here's a list of some stuff I've made so far.
     </p>
 
     <div class="projects">
-        <Project
-            name="notor"
-            desc="A terminal app for writing down short notes."
-            link="https://www.github.com/vexe141/notor"
-            langImage={notor_lang}
-        />
-        <Project
-            name="libman"
-            desc="A little library management tool."
-            link="https://www.github.com/vexe141/libman"
-            langImage={libman_lang}
-        />
-        <Project
-            name="tic_tac_toe"
-            desc="A terrible tictactoe game I made a long time ago."
-            link="https://www.github.com/vexe141/tic_tac_toe"
-            langImage={tic_tac_toe_lang}
-            published="https://vexe141.github.io/tic_tac_toe"
-        />
+        <Project {...props.notorProps} />
+        <Project {...props.libmanProps} />
+        <Project {...props.ticTacToeProps} />
     </div>
 
     <p>
-        Oh, fun fact, I used to be an EDM producer. Here's a bunch of links if
+        Oh, fun fact, I used to be an EDM producer, under the name "virus.exe". Here's a bunch of links if
         you wanna check out the music I used to make.
     </p>
 
@@ -76,11 +76,6 @@
         text-align: center;
         padding: 1em;
         margin: 0 auto;
-    }
-
-    img {
-        height: 6rem;
-        width: 6rem;
     }
 
     .projects {

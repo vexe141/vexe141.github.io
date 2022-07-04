@@ -5,11 +5,11 @@ Published [here](https://vexe141.github.io/).
 
 ## Developing
 
-`yarn` needed. Install it using `npm install -g yarn`.
+`yarn` needed.
 
 ```bash
-git clone https://www.github.com/vexe141/about.git
-cd about
+git clone https://www.github.com/vexe141/vexe141.github.io.git
+cd vexe141.github.io
 yarn
 yarn dev
 ```

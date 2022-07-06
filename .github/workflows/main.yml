@@ -21,6 +21,7 @@ jobs:
       - name: Build
         run: |
           yarn build
+          mv ./404.html ./dist/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1

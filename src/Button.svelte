@@ -2,7 +2,7 @@
     export let name: string;
     export let link: string;
 
-    function goToLink() {
+    function goToLink(): void {
         window.open(link, "_blank");
     }
 </script>
@@ -11,6 +11,8 @@
 
 <style>
     button {
+        overflow: hidden;
+        transition: all 200ms ease;
         background-color: rgb(69, 144, 130);
         color: white;
         padding: 10px 10px;
@@ -25,6 +27,6 @@
     }
 
     button:hover {
-        background-color: rgb(57, 110, 103);
+        background-color: rgb(72, 143, 155);
     }
 </style>

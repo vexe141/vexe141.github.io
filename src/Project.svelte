@@ -24,17 +24,20 @@
             <img class="langImage" src={lang} alt="Language used for project" />
         {/each}
     </p>
-
-    <p />
 </div>
 
 <style>
     .wrapper {
-        background-color: rgb(45, 45, 45);
+        transition: all 300ms ease;
+        background-color: rgb(40, 40, 40);
         margin: 1rem auto;
         padding: 1rem;
         padding-left: 2rem;
         border-radius: 5px;
+    }
+
+    .wrapper:hover {
+        background-color: rgb(45, 45, 45);
     }
 
     .langImage {

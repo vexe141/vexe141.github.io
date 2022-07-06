@@ -36,8 +36,7 @@
     <h1>vexe</h1>
 
     <p>
-        Just a guy who writes random apps and stuff for fun.
-        Here's a list of some stuff I've made so far.
+        Your average spaghetti coder. Also a former music producer.
     </p>
 
     <div class="projects">
@@ -47,8 +46,7 @@
     </div>
 
     <p>
-        Oh, fun fact, I used to be an EDM producer, under the name "virus.exe". Here's a bunch of links if
-        you wanna check out the music I used to make.
+        Here's a bunch of links to my channels where you'll find some EDM tracks I produced as "virus.exe".
     </p>
 
     <Button
@@ -66,8 +64,7 @@
 
 <style>
     :root {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Finlandica","Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
         background-color: rgb(20, 20, 20);
         color: white;
     }
@@ -85,6 +82,7 @@
     h1 {
         color: #4fefca;
         font-size: 4rem;
+        letter-spacing: 0.3rem;
         font-weight: 100;
         line-height: 1.1;
         margin: 2rem auto;

@@ -19,9 +19,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: |
-          yarn build
-          mv ./404.html ./dist/
+        run: yarn build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
